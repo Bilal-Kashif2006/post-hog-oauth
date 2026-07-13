@@ -1,4 +1,5 @@
 {
+  "client_id":"https://bilal-kashif2006.github.io/post-hog-oauth/.well-known/posthog-config",
   "client_name": "Your Analytics Dashboard",
   "logo_uri": "https://yourdashboard.com/logo.png",
   "redirect_uris": [
