@@ -1,5 +1,5 @@
 {
-  "client_id": "https://bilal-kashif2006.github.io/post-hog-oauth/.well-known/posthog-config-v6.json",
+  "client_id": "https://bilal-kashif2006.github.io/post-hog-oauth/.well-known/posthog-config-v8.json",
   "client_name": "Your Analytics Dashboard",
   "logo_uri": "https://yourdashboard.com/logo.png",
   "redirect_uris": [
@@ -7,9 +7,7 @@
   ],
   "com.posthog": {
     "scopes": [
-      "insight:read",
-      "event:read",
-      "person:read"
+      "query:read"
     ]
   }
 }
