@@ -1,16 +1,15 @@
 {
-  "client_id":"https://bilal-kashif2006.github.io/post-hog-oauth/.well-known/posthog-config",
+  "client_id": "https://bilal-kashif2006.github.io/post-hog-oauth/.well-known/posthog-config",
   "client_name": "Your Analytics Dashboard",
   "logo_uri": "https://yourdashboard.com/logo.png",
   "redirect_uris": [
-    "https://yourdashboard.com/api/auth/posthog/callback"
+    "http://localhost:3000/api/auth/posthog/callback"
   ],
   "com.posthog": {
     "scopes": [
       "insight:read",
       "event:read",
-      "person:read",
-      "session_recording:read"
+      "person:read"
     ]
   }
 }
